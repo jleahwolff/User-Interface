@@ -71,14 +71,17 @@ h1, h2, h3, h4, h5 {
 nav {
 	width: 100%;
 	margin: 2%;
-	background-color:white;
+	padding:4px;
+	background-color:grey;
 	vertical-align: top;
+	position:fixed;
+	top:-20px;
 }
 
 nav a {
-	padding:7px;
+	padding:4px;
 	margin:0 3%;
-	color:grey;
+	color: white;
 	text-decoration:none;
 	vertical-align: top;
 }
@@ -88,6 +91,7 @@ header{
 	vertical-align:top;
 	margin-left:25%;
 	margin-right:15%;
+	margin-top: 10%;
 }
 
 .innovation{
@@ -103,6 +107,10 @@ h1{
 
 h3{
 	font-size: 20px;
+}
+
+.font{
+	font-family: 'PT Sans Narrow';
 }
 
 button{
